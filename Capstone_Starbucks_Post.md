@@ -4,7 +4,7 @@ If you've ever been into a Starbucks you would have experienced the coffee lover
 This curious behaviour that people only shows in Starbucks it was made me decide to choose this project.
 
 <div style="text-align:center;">
- <img src="coffee_laptop.png" 
+ <img src="coffee_laptop.jpg" 
       alt="A cup of coffe next to a laptop" 
       caption = "picture from freepik images">
 </div>
@@ -30,7 +30,7 @@ To begin, we explored the *profile* dataset to understand the demographic distri
 <div style="text-align:center;">
  <img src="gender_distribution.png" 
       alt="Gender distribution" 
-       width="400" height="200"
+       width="600" height="400"
 </div>
 
 - The average age of customers varied by gender, with females being slightly older on average (57.54 years) compared to males (52.12 years).  
@@ -39,7 +39,7 @@ To begin, we explored the *profile* dataset to understand the demographic distri
 <div style="text-align:center;">
  <img src="membership_grow.png" 
       alt="Members per year" 
-       width="400" height="200"
+       width="600" height="400"
 </div>
   
 The *transcript* dataset provided insight into customer interactions with offers. We found that transaction events (45.33%) were the most frequent, followed by "offer received" (24.88%), "offer viewed" (18.83%), and "offer completed" (10.95%). These events helped us understand the customer journey and how offers were processed.  
