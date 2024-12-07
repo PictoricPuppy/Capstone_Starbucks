@@ -53,6 +53,8 @@ Starbucks_Capstone_notebook.ipynb - Jupyter notebook with the code used for the 
 
 Starbucks_Capstone_notebook.html - Html file with the code used for the analysis to an easier reading.
 
+Images to ilustrate the blog post - coffee_laptop.jpg, ages.png, event_distr.png, gender_distr.png, income.png, matrix.png, membership_grow.png, model_scores.png, roc.prng
+
 
 **6. How to Interact with the project**
 
