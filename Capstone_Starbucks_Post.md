@@ -37,7 +37,7 @@ To begin, we explored the *profile* dataset to understand the demographic distri
 - Membership growth peaked in 2017, showing rapid adoption of the Starbucks membership program from 2015 onward.
 
 <div style="text-align:center;">
- <img src="membership_grow.png" 
+ <img src="member_year.png" 
       alt="Members per year" 
        width="600" height="400"
 </div>
@@ -103,6 +103,12 @@ After evaluating multiple models, we found that the Support Vector Machine (SVM)
 
 **Confusion Matrix and Performance Analysis**  
 The confusion matrix revealed a model bias toward predicting non-completion (Class 0), with strong performance on Class 0 (82% recall) but weak results on Class 1 (35% recall). The AUC-ROC score of 58.4% indicated that the model had a slightly better-than-random chance of distinguishing between the two classes.
+
+<div style="text-align:center;">
+ <img src="matrix.png" 
+      alt="Confussion matrix" 
+       width="600" height="400"
+</div>
 
 <div style="text-align:center;">
  <img src="roc.png" 
