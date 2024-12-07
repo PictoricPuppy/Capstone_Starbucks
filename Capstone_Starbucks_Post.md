@@ -47,7 +47,7 @@ The *transcript* dataset provided insight into customer interactions with offers
 <div style="text-align:center;">
  <img src="event_distr.png" 
       alt="Event distribution" 
-       width="400" height="200"
+       width="600" height="400"
 </div>
   
 In the *portfolio* dataset, we found details about the offers themselves, including type, duration, and other characteristics. This helped us identify key features that could influence customer behavior.
@@ -59,8 +59,21 @@ In the *portfolio* dataset, we found details about the offers themselves, includ
 **Data Cleaning and Preprocessing**  
 Data cleaning was a critical step. We handled missing values in the *profile* dataset by replacing outliers, such as the unrealistic age of 118 years, with NaN. We also created age and income clusters to categorize customers more effectively:
 - **Age Clusters**: Young Adults (18-25), Adults (26-65), Seniors (65+).
+
+<div style="text-align:center;">
+ <img src="ages.png" 
+      alt="Age clusters" 
+       width="600" height="400"
+</div>
+  
 - **Income Clusters**: Moderate, Good, Excellent.
 
+<div style="text-align:center;">
+ <img src="income.png" 
+      alt="Income clusters" 
+       width="600" height="400"
+</div>
+  
 We also created dummy variables for categorical features like offer type and performed feature scaling to prepare the data for modeling.
 
 **Modeling Strategy**  
@@ -85,7 +98,7 @@ After evaluating multiple models, we found that the Support Vector Machine (SVM)
 <div style="text-align:center;">
  <img src="model_scores.png" 
       alt="Model Scores" 
-       width="400" height="200"
+       width="600" height="400"
 </div>
 
 **Confusion Matrix and Performance Analysis**  
@@ -94,7 +107,7 @@ The confusion matrix revealed a model bias toward predicting non-completion (Cla
 <div style="text-align:center;">
  <img src="roc.png" 
       alt="ROC Curve" 
-       width="400" height="200"
+       width="600" height="400"
 </div>
 
 Despite the promising performance of SVM, further improvements are needed. A higher recall for Class 1 (offer completion) is essential, as the model's ability to predict positive outcomes is still limited.
