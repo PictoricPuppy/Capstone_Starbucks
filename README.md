@@ -49,9 +49,13 @@ profile.json—demographic data for each customer
 
 transcript.json—records for transactions, offers received, offers viewed, and offers completed
 
-Starbucks_Capstone_notebook.ipynb - Jupyter notebook with the code used for the analysis.
+Starbucks_Capstone_notebook2.ipynb - Jupyter notebook with the code used for the analysis.
 
 Starbucks_Capstone_notebook.html - Html file with the code used for the analysis to an easier reading.
+
+Starbucks_Capstone_notebook_0712.ipynb - Jupyter notebook with the code used for the analysis.Date 07.12. Needed improvement.
+
+Starbucks_Capstone_notebook_0712.html - Html file with the code used for the analysis to an easier reading.Date 07.12. Needed improvement.
 
 Images to ilustrate the blog post - coffee_laptop.jpg, ages.png, event_distr.png, gender_distr.png, income.png, matrix.png, membership_grow.png, member_year.png, model_scores.png, roc.prng
 
