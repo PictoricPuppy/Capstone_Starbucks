@@ -104,4 +104,5 @@ Bibliography and consulted resources:
   Categorical conversion. https://www.youtube.com/watch?v=fyHaUMX9y0A
   Handling missing values. https://www.youtube.com/watch?v=uDr67HBIPz8
   Confussion matrix. https://www.youtube.com/watch?v=H2M3fT1njXQ
+  Internal employee forums at SEAT/CUPRA S.A.
 
