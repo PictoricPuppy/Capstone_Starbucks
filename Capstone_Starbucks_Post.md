@@ -24,7 +24,7 @@ We primarily used accuracy as our key performance metric to evaluate the predict
 
 **Exploratory Data Analysis (EDA)**  
 To begin, we explored the *profile* dataset to understand the demographic distribution of Starbucks customers. A few key findings emerged:  
-- There were 2,175 missing values in the gender and income columns, requiring data cleaning.  
+- There were 2.175 missing values in the gender and income columns, requiring data cleaning.  
 - The customer base was largely male (49.91%) with females (36.05%) and others (1.25%) making up smaller portions.
 - 
 <div style="text-align:center;">
@@ -85,6 +85,8 @@ The core task was to predict whether a customer would complete an offer. This wa
 - **Decision Tree**: A tree-like structure where decisions are made based on feature values.
 - **KNN (K-Nearest Neighbors)**: A model that classifies data based on the majority vote of its nearest neighbors.
 
+We applied model refinement methodologies such as hyperparameter tuning and class weighting to improve model performance. Specifically, techniques like cross-validation and adjusting class weights were utilized to address the class imbalance, where more customers did not complete offers than those who did. This helped mitigate the tendency of models to favor non-completion prediction
+
 **Problem Identification and Solution**  
 One challenge was the imbalance in the dataset—more customers were not completing offers than those who did. This caused the models to lean towards predicting non-completion. Addressing this imbalance by adjusting the model parameters and using techniques like oversampling could potentially improve performance.
 
@@ -100,7 +102,8 @@ After evaluating multiple models, we found that the Support Vector Machine (SVM)
       alt="Model Scores" 
        width="600" height="400"
 </div>
-
+We applied Stratified Cross-Validation and class weighting techniques, which helped further refine the model performance. This ensured the evaluation of models using more balanced data, resulting in more reliable insights.
+ 
 **Confusion Matrix and Performance Analysis**  
 The confusion matrix revealed a model bias toward predicting non-completion (Class 0), with strong performance on Class 0 (82% recall) but weak results on Class 1 (35% recall). The AUC-ROC score of 58.4% indicated that the model had a slightly better-than-random chance of distinguishing between the two classes.
 
